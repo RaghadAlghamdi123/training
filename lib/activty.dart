@@ -30,6 +30,7 @@ class ActivitiesScreen extends StatefulWidget {
 }
 
 class _ActivitiesScreenState extends State<ActivitiesScreen> {
+  
   // Original Data
   final List<Activity> _allActivities = [
     Activity(
