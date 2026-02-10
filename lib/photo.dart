@@ -1,26 +1,7 @@
 import 'package:flutter/material.dart';
 import 'dart:ui';
 //ph
-void main() {
-  runApp(const MyApp());
-}
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Upload Photo UI',
-      debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xFF6B7280)),
-        useMaterial3: true,
-      ),
-      home: const UploadPhotoScreen(),
-    );
-  }
-}
 
 class UploadPhotoScreen extends StatelessWidget {
   const UploadPhotoScreen({super.key});
