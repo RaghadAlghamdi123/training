@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'dart:ui';
-//ph
+//photo
 void main() {
   runApp(const MyApp());
 }
